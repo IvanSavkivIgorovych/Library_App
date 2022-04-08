@@ -3,11 +3,18 @@ import React from "react";
 import "./style.css";
 import { Book } from "../Book";
 
-export const Books = ({ books }) => {
+export const Books = (props) => {
   return (
     <ul className="books-list">
-      {books.map((book, idx) => {
-        return <Book key={book.id} data={book} count={idx + 1} />;
+      {props.data.map((book, idx) => {
+        return (
+          <Book
+            key={book.id}
+            data={book}
+            count={idx + 1}
+            onRemoveBook={props.onRemoveBook}
+          />
+        );
       })}
     </ul>
   );
