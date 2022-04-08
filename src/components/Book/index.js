@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-export const Book = ({ count, data, onRemoveBook }) => {
+export const Book = ({ count, data, onRemoveBook, onReadBook }) => {
   const titleStyle = `book-title ${data.isRead ? "isRead" : ""}`;
   return (
     <li className="book-wrapper">
@@ -15,7 +15,7 @@ export const Book = ({ count, data, onRemoveBook }) => {
           type="checkbox"
           className="pointer"
           checked={data.isRead}
-          onChange={() => console.log(123)}
+          onChange={() => onReadBook(data.id)}
         />
       </span>
     </li>
