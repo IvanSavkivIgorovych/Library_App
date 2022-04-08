@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "isRead": false,
+    "title": "Unlocking Android",
+    "shortDescription": "Unlocking Android: A Developer's Guide provides concise, hands-on instruction for the Android operating system and development tools. This book teaches important architectural concepts in a straightforward writing style and builds on this with practical and useful examples throughout."
+  },
+  {
+    "id": 2,
+    "isRead": true,
+    "title": "Android in Action, Second Edition",
+    "shortDescription": "Android in Action, Second Edition is a comprehensive tutorial for Android developers. Taking you far beyond \"Hello Android,\" this fast-paced book puts you in the driver's seat as you learn important architectural concepts and implementation strategies. You'll master the SDK, build WebKit apps using HTML 5, and even learn to extend or replace Android's built-in features by building useful and intriguing examples. "
+  },
+  {
+    "id": 3,
+    "isRead": false,
+    "title": "Zend Framework in Action",
+    "shortDescription": "Zend Framework in Action is a comprehensive tutorial that shows how to use the Zend Framework to create web-based applications and web services. This book takes you on an over-the-shoulder tour of the components of the Zend Framework as you build a high quality, real-world web application."
+  },
+  {
+    "id": 4,
+    "isRead": true,
+    "title": "Flex on Java",
+    "shortDescription": "   A beautifully written book that is a must have for every Java Developer.       Ashish Kulkarni, Technical Director, E-Business Software Solutions Ltd."
+  },
+  {
+    "id": 5,
+    "isRead": false,
+    "title": "Griffon in Action",
+    "shortDescription": "Griffon in Action is a comprehensive tutorial written for Java developers who want a more productive approach to UI development. In this book, you'll immediately dive into Griffon. After a Griffon orientation and a quick Groovy tutorial, you'll start building examples that explore Griffon's high productivity approach to Swing development. One of the troublesome parts of Swing development is the amount of Java code that is required to get a simple application off the ground."
+  }
+]
