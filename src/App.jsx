@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "./style.css";
 import BOOK_LIST from "./store/books.json";
 import { Books } from "./components/Books";
+import { AddForm } from "./components/AddForm";
 
 const App = () => {
   const [bookList, setBookList] = useState(BOOK_LIST);
@@ -21,8 +22,13 @@ const App = () => {
     ]);
   };
 
+  const onAddNewBook = (book) => {
+    setBookList((prev) => [...prev, { ...book, id: bookList.length + 1 }]);
+  };
+
   return (
     <div className="container">
+      <AddForm onAddNewBook={onAddNewBook} />
       <Books
         data={bookList}
         onRemoveBook={removeBook}
