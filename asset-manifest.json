@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/IvanSavkivIgorovych/Library_App.git/static/css/main.1288f360.css",
-    "main.js": "/IvanSavkivIgorovych/Library_App.git/static/js/main.7e2c7521.js",
-    "index.html": "/IvanSavkivIgorovych/Library_App.git/index.html",
-    "main.1288f360.css.map": "/IvanSavkivIgorovych/Library_App.git/static/css/main.1288f360.css.map",
-    "main.7e2c7521.js.map": "/IvanSavkivIgorovych/Library_App.git/static/js/main.7e2c7521.js.map"
+    "main.css": "/Library_App/static/css/main.1288f360.css",
+    "main.js": "/Library_App/static/js/main.7e2c7521.js",
+    "index.html": "/Library_App/index.html",
+    "main.1288f360.css.map": "/Library_App/static/css/main.1288f360.css.map",
+    "main.7e2c7521.js.map": "/Library_App/static/js/main.7e2c7521.js.map"
   },
   "entrypoints": [
     "static/css/main.1288f360.css",
